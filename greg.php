@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <title>Joaquin Rodriguez</title>
 </head>
 
 <body>
-    <?php
+    <h1>Joaquin Rodriguez</h1>
 
-    ?>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <p>Hello there, general kenobi</p>
 </body>
 
 </html>

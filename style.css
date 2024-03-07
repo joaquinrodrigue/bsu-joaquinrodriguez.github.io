@@ -1,26 +1,31 @@
 body {
     margin: 0px;
     font-family: 'Aptos', 'Helvetica', sans-serif;
+    position: relative;
+    height: 100vh;
 }
 
 h1 {    
     margin: 30px 30px 0px 30px;
     font-size: 38pt;
-    border-bottom: 4px solid grey;
     padding-bottom: 10px;
 }
 
-p, h2 {
-    margin-left: 30px;
+p {
+    margin: 1em 30px;
 }
 
-nav ul {
+h2 {
+    margin: 0.75em 30px;
+    border-bottom: 4px solid #00A0CC;
+    display: inline-block;
+}
+
+nav ul, footer {
     list-style: none;
     display: flex;
-    background-color: grey;
-    margin: 0px 30px;
-    padding: 5px;
-    border-bottom: 4px solid grey;
+    background-color: #00A0CC;
+    padding: 9px;
 }
 
 nav ul li {
@@ -35,5 +40,25 @@ a {
 }
 
 a:hover {
-    background-color: lightgrey;
+    background-color: #00C0FF;
+}
+
+footer {
+    justify-content: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    h1 {
+        font-size: 56pt;
+        padding-bottom: 20px;
+    }
 }
