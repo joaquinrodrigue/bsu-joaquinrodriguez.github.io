@@ -61,7 +61,11 @@ section {
 
 /* Projects Page Formatting */
 
-
+.project-1 img, .project-2 img, iframe {
+    box-sizing: content-box;
+    width: calc(100% - 65px);
+    margin: 30px;
+}
 
 /* Desktop Only Changes */
 @media only screen and (min-width: 800px) {
@@ -69,4 +73,15 @@ section {
         font-size: 56pt;
         padding-bottom: 20px;
     }
+    
+    .project-1, .project-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .project-1 h2, .project-2 h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
 }
